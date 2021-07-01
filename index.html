@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <section class="container">
+        <div id="displayy" class="row d-block text-right">
+            <h3 id="display2"> </h3>
+            <h1 id="display">0</h1>
+        </div>
+        <div class="container-fluid buttons">
+        <div class="row">
+            <div class="col">
+                <button data-action="%">%</button>
+            </div>
+            <div class="col">
+                <button data-action="√">√</button>
+            </div>
+            <div class="col">
+                <button data-action="²">x²</button>
+            </div>
+            <div class="col">
+                <button data-action="1/x">1/x</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button>CE</button>
+            </div>
+            <div class="col">
+                <button data-action="clear">C</button>
+            </div>
+            <div class="col">
+                <button>S</button>
+            </div>
+            <div class="col">
+                <button  data-action="÷">÷</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col digit">
+                <button>7</button>
+            </div>
+            <div class="col digit">
+                <button>8</button>
+            </div>
+            <div class="col digit">
+                <button>9</button>
+            </div>
+            <div class="col">
+                <button data-action="×">×</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col digit">
+                <button>4</button>
+            </div>
+            <div class="col digit">
+                <button>5</button>
+            </div>
+            <div class="col digit">
+                <button>6</button>
+            </div>
+            <div class="col">
+                <button data-action="-">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col digit">
+                <button>1</button>
+            </div>
+            <div class="col digit">
+                <button>2</button>
+            </div>
+            <div class="col digit">
+                <button>3</button>
+            </div>
+            <div class="col">
+                <button data-action="+">+</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button>+-</button>
+            </div>
+            <div class="col digit 0">
+                <button>0</button>
+            </div>
+            <div class="col">
+                <button data-action="decimal">.</button>
+            </div>
+            <div class="col">
+                <button data-action="calculate">=</button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
